@@ -1,0 +1,82 @@
+Geometry Dash Completed Demons List
+Not In Order
+
+> Easy Demons <
+The Nightmare                   (Overall)                        100% | 212 Attempts (Estimation)     (2016)     60Hz
+THE LIGHTNING ROAD   (Overall)                        100% | 228 Attempts (Estimation)     (2016)     60Hz
+Platinum Adventure           (Overall)                        100% | 192 Attempts                           (2016)     60Hz
+Adust               	        (Overall)                        100% | 109 Attempts                           (2021)     288Hz
+Phjork                                 (Fast Paced)                100% | 46 Attempts                             (2021)     288Hz
+neXus                                 (Fast Paced)                100% | 97 Attempts                             (2021)     288Hz
+Clubstep               (Ship)                           100% | 3264 Attempts (Estimation)    (2016)     60Hz
+DeCode                 (Ship & Wave)                    100% | 1075 Attempts                 (2017)     144Hz
+Death Moon             (Nerve Control)                  100% | 418 Attempts                  (2016)     60Hz
+X                      (Overall)                        100% | 671 Attempts (Estimation)     (2016)     60Hz
+Noobaman Adventures    (Overall)                        100% | 284 Attempts                  (2016)     60Hz
+Space Club             (Ship)                           100% | 83 Attempts                   (2016)     60Hz
+past                   (Overall)                        100% | 219 Attempts                  (2021)     240Hz
+Strangers              (Ship & Wave)                    100% | 734 Attempts                  (2018)     144Hz
+Pipe Rush              (Overall)                        100% | 163 ATtempts                  (2017)     60Hz
+Xstep v2               (Ship)                           100% | 231 Attempts                  (2016)     60Hz
+Laser Room             (Overall)                        100% | 221 Attempts                  (2016)     60Hz
+Crescendo              (Memory)                        100% | 111 Attempts                  (2016)     60Hz
+Problematic            (Wave)                           100% | 166 Attempts                  (2017)     60Hz
+Dear Nostalgists       (Overall)                        100% | 732 Attempts                  (2017)     60Hz
+Theory of Everything 2 (Overall)                        100% | 2701 Attempts (Estimation)    (2016)     60Hz
+The Robotic Rush       (Overall)                        100% | 277 Attempts                  (2017)     60Hz
+Flappy Weird           (UFO)                            100% | 96 Attempts                   (2016)     60Hz
+Horizon                (Bossfight)                      100% | 484 Attempts (Estimation)     (2017)     60Hz
+Ultra Paracosm         (Wave)                           100% | 91 Attempts                   (2017)     60Hz
+Insane Club            (Ship)                           100% | 166 Attempts                  (2016)     60Hz
+PP                     (Overall)                        100% | 151 Attempts                  (2020)     144Hz
+Moon Adventure         (Overall)                        100% | 300 Attempts                  (2017)     60Hz
+Invisible Clubstep     (Ship)                           100% | 4 Attempts                    (2016)     60Hz
+Infinite Circles       (Wave)                           100% | 460 Attempts                  (2017)     60Hz
+Toxin Lab II           (Fast Gamemode Switches)         100% | 650 Attempts                  (2017)     60Hz
+NothinG                (Ship & Timings)                 100% | 99 Attempts                   (2021)     288Hz
+Meow                   (Fast Paced)                     100% | 216 Attempts                  (2021)     288Hz
+Speed Racer            (Speed Changes)                  100% | 59 Attempts                   (2017)     60Hz
+Voyager                (Overall)                        100% | 106 Attempts                  (2021)     288Hz
+Cobalt Ruins           (Overall)                        100% | 156 Attempts                  (2021)     288Hz
+Motion                 (Overall)                        100% | 321 Attempts                  (2021)     60Hz
+Buried Angel           (Fast Gamemode Switches)         100% | 332 Attempts                  (2021)     288Hz
+Sidestep               (Overall)                        100% | 419 Attempts                  (2021)     288Hz
+Traction               (Overall)                        100% | 171 Attempts                  (2021)     288Hz
+Vibration              (Overall)                        100% | 345 Attempts                  (2021)     288Hz
+
+
+
+> Medium Demons <
+Deadlocked             (Wave)                           100% | 5196 Attempts (Estimation)    (2016)     60Hz
+HELL                   (Wave & Ship)                    100% | 811 Attempts                  (2021)     288Hz        
+-Sirius-               (Bossfight)                      100% | 195 Attempts                  (2017)     60Hz
+Verity                 (Fast Paced & Duals)             100% | 2144 Attempts                 (2017)     60Hz
+Gold Temple            (Fast Paced & Tight Spaces)      100% | 1074 Attempts                 (2018)     60Hz
+Takeoff                (Fast Paced)                     100% | 988 Attempts                  (2017)     60Hz
+Ebb                    (Overall)                        100% | 1020 Attempts                 (2017)     60Hz
+Clubstep v2            (Ship)                           100% | 744 Attempts                  (2017)     60Hz
+Lonely Travel          (Consistency)                    100% | 1024 Attempts (Estimation)    (2021)     288Hz
+Mechanical Showdown    (Overall)                        100% | 459 Attempts                  (2021)     288Hz
+Reanimation            (Bossfight)                      100% | 581 Attempts                  (2021)     288Hz
+Dem Travel             (Consistency)                    97%
+
+
+
+> Hard Demons <
+Nine Circles		(Wave)			100% | 3403 Attempts (Estimation)	(2021)	144Hz
+Forsaken Neon		(Nerve Control)		100% | 3133 Attempts		(2021)	288Hz
+Forest Temple		(Timings)			100% | 2981 Attempts		(2021)	288Hz
+Jawbreaker		(Wave)			100% | 1624 Attempts (Estimation)            (2022)      240Hz 
+ 
+
+
+> Insane Demons <
+
+None
+
+
+
+> Extreme Demons <
+
+None
+
