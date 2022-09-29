@@ -1,0 +1,59 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  border-color: rgb(24, 24, 24);
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: 2px;
+
+  background-color: rgb(14, 14, 16);
+}
+
+.left-side {
+  width: 208px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-left: 24px;
+}
+
+header img {
+  width: 40px;
+  margin-right: 12px;
+}
+
+header button {
+  height: 36px;
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  color: white;
+  padding-bottom: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(52, 52, 52);
+  border: 0px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -ms-transition: 0.15s;
+  -o-transition: 0.15s;
+}
+  header button:hover {
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+}
