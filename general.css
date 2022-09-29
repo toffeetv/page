@@ -13,6 +13,12 @@ body {
   margin-left: 128px;
 }
 
+h1 {
+  font-family: "Noto Sans";
+  font-weight: 900;
+  margin: 0px;
+}
+
 /*
   S C R O L L B A R
 */
@@ -37,4 +43,20 @@ body {
   -o-border-radius: 14px;
 }
 
+@media (max-width: 700px) {
+  body {
+    margin-left: 64px;
+  }
+}
 
+@media (max-width: 460px) {
+  body {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin-left: 4px;
+  }
+}

@@ -40,7 +40,9 @@ header img {
 }
 
 header .useless-button {
-  background-color: rgb(52, 52, 52);
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  color: black;
   border: 0px;
 }
 header .useless-button:hover {
@@ -67,8 +69,8 @@ header button {
   font-weight: 500;
   color: white;
   padding-bottom: 3px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
   border-radius: 24px;
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
@@ -80,3 +82,26 @@ header button {
   -ms-transition: 0.15s;
   -o-transition: 0.15s;
 }
+
+@media (max-width: 700px) {
+
+  header img {
+    display: none;
+  }
+  .left-side {
+    width: 430px;
+  }
+}
+
+@media (max-width: 640px) {
+  .right-side h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .left-side {
+    margin-left: 10px;
+  }
+}
+
