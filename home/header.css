@@ -6,6 +6,7 @@ header {
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   border-color: rgb(24, 24, 24);
   border-style: solid;
@@ -18,17 +19,45 @@ header {
 }
 
 .left-side {
-  width: 208px;
+  width: 480px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   margin-left: 24px;
+}
+
+.right-side {
+  margin-right: 24px;
+}
+.right-side h1 {
+  font-weight: 900;
+  display: inline;
 }
 
 header img {
   width: 40px;
   margin-right: 12px;
+}
+
+header .useless-button {
+  background-color: rgb(52, 52, 52);
+  border: 0px;
+}
+header .useless-button:hover {
+  cursor: not-allowed;
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.7);
+}
+
+header .useful-button {
+  background-color: transparent;
+  border-color: rgb(52, 52, 52);
+  border-style: solid;
+  border-width: 1px;
+}
+header .useful-button:hover {
+  background-color: rgb(52, 52, 52);
+  cursor: pointer;
 }
 
 header button {
@@ -40,8 +69,6 @@ header button {
   padding-bottom: 3px;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: rgb(52, 52, 52);
-  border: 0px;
   border-radius: 24px;
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
@@ -52,8 +79,4 @@ header button {
   -moz-transition: 0.15s;
   -ms-transition: 0.15s;
   -o-transition: 0.15s;
-}
-  header button:hover {
-    background-color: rgb(72, 72, 72);
-    cursor: pointer;
 }
