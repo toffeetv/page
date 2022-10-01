@@ -1,0 +1,95 @@
+.title {
+  margin-bottom: 24px;
+  font-size: 42px;
+}
+
+img {
+  width: 28px;
+  height: 28px;
+}
+
+.username {
+  display: inline;
+  font-weight: 800;
+  font-size: 36px;
+}
+#easy {
+  margin-top: 10px;
+}
+#ign {
+  text-decoration: underline;
+}
+
+.info-box {
+  margin-bottom: 36px;
+}
+
+.info {
+  display: flex;
+  width: auto;
+  height: 32px;
+  align-items: center;
+}
+
+.info p {
+  margin-left: 8px;
+}
+
+.note {
+  background-color: rgba(255, 0, 0, 0.068);
+  padding: 12px;
+  width: auto;
+  max-width: 680px;
+  margin-bottom: 36px;
+  text-align: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 12px;
+  margin-bottom: 72px;
+  table-layout: fixed;
+}
+
+td {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(32, 32, 32);
+  text-align: left;
+  padding: 4px;
+}
+
+
+td img {
+  width: 28px;
+}
+
+.face {
+  width: 40px;
+}
+
+@media (max-width: 425px) {
+  .year {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .face {
+    display: none;
+  }
+}
