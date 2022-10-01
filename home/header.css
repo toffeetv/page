@@ -38,11 +38,13 @@ header {
 }
 .right-side img {
   width: 40px;
+  height: 40px;
 
 }
 
 header .left-side img {
   width: 40px;
+  height: 40px;
   margin-right: 12px;
 }
 
