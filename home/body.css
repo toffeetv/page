@@ -1,26 +1,10 @@
 .social-container {
   width: 360px;
-  border-width: 1px;
-  border-color: rgb(46, 46, 46);
-  border-style: solid;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: rgb(12, 12, 12);
+  margin-bottom: 72px;
 }
 
 .social-header {
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
-  background: rgb(199, 83, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(199, 83, 0, 0.15) 0%,
-    rgba(218, 0, 110, 0.15) 100%
-  );
-  border-color: rgb(46, 46, 46);
+  border-color: rgb(32, 32, 32);
   border-style: solid;
   border-bottom-width: 1px;
   border-left: 0px;
@@ -29,14 +13,16 @@
 }
 
 .social-header h1 {
-  margin-left: 6px;
-  padding: 8px;
+  margin-left: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 28px;
 }
 
 .social-body {
-  margin-left: 6px;
-  padding: 8px;
+  margin-top: 6px;
+  margin-left: 0px;
+  padding: 4px;
   align-items: center;
 }
 
@@ -45,13 +31,14 @@
   align-items: center;
   padding: 2px;
   padding-top: 4px;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .social-body img {
   width: 24px;
   filter: brightness(1.1);
   -webkit-filter: brightness(1.1);
+  margin-right: 6px;
 }
 
 .social-body a {
@@ -62,20 +49,25 @@
 
 .social-body p {
   margin: 0px;
-  margin-left: 6px;
   display: inline;
-  color: white;
-  margin-right: 2px;
+  color: rgb(224, 224, 224);
 }
-.social-body p:hover {
+.social-body .site:hover {
   text-decoration: underline;
 }
 
 .social-body .username {
   color: rgb(94, 94, 94);
   font-weight: 300;
+  margin-left: 8px;
 }
 .social-body .username:hover {
   color: rgb(160, 160, 160);
   text-decoration: none;
+}
+
+@media (max-width: 415px) {
+  .social-container {
+    width: 320px;
+  }
 }

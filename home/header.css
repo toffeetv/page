@@ -28,13 +28,20 @@ header {
 
 .right-side {
   margin-right: 24px;
+  position: relative;
+  display: flex;
+  justify-content: end;
 }
 .right-side h1 {
   font-weight: 900;
   display: inline;
 }
+.right-side img {
+  width: 40px;
 
-header img {
+}
+
+header .left-side img {
   width: 40px;
   margin-right: 12px;
 }
@@ -50,6 +57,11 @@ header .useless-button:hover {
   filter: brightness(0.5);
   -webkit-filter: brightness(0.7);
 }
+header .useless-button:active {
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.7);
+}
+
 
 header .useful-button {
   background-color: transparent;
@@ -85,7 +97,7 @@ header button {
 
 @media (max-width: 700px) {
 
-  header img {
+  header .left-side img {
     display: none;
   }
   .left-side {
@@ -99,9 +111,34 @@ header button {
   }
 }
 
+@media (max-width: 435px) {
+  header button {
+    font-size: 12px;
+  }
+}
+
+
 @media (max-width: 400px) {
   .left-side {
     margin-left: 10px;
+  }
+}
+
+@media (min-width: 640px) {
+  .right-side img {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .right-side img {
+    display: none;
+  }
+}
+
+@media (max-width: 370px) {
+  .left-side {
+    margin-left: 4px;
   }
 }
 
