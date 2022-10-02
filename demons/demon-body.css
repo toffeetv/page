@@ -75,7 +75,12 @@ table {
   color: rgb(216, 216, 216);
 }
 
+.year {
+  text-align: center;
+}
+
 td {
+  text-align: center;
   font-family: "Noto Sans";
   border-top: 0px;
   border-left: 0px;
@@ -100,6 +105,8 @@ td a:hover {
 td img {
   width: 28px;
 }
+
+
 
 .face {
   width: 40px;
