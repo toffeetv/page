@@ -50,6 +50,8 @@ img {
 .note {
   background-color: rgba(255, 0, 0, 0.068);
   padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: auto;
   max-width: 680px;
   margin-bottom: 36px;
@@ -76,6 +78,10 @@ table {
 }
 
 .year {
+  text-align: end;
+}
+
+.lvl {
   text-align: center;
 }
 
@@ -106,7 +112,21 @@ td img {
   width: 28px;
 }
 
+.center {
+  text-align: end;
+}
 
+@media (max-width: 725px) {
+  .note {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    margin-left: 24px;
+  }
+}
 
 .face {
   width: 40px;
