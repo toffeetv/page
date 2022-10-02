@@ -19,6 +19,17 @@ img {
 #ign {
   text-decoration: underline;
 }
+#total {
+  width: 256px;
+  padding-top: 6px;
+  margin-top: 8px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: rgb(32, 32, 32);
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
 
 .info-box {
   margin-bottom: 36px;
@@ -33,11 +44,12 @@ img {
 
 .info p {
   margin-left: 8px;
+  font-family: "Noto Sans";
 }
 
 .note {
   background-color: rgba(255, 0, 0, 0.068);
-  padding: 12px;
+  padding: 4px;
   width: auto;
   max-width: 680px;
   margin-bottom: 36px;
@@ -54,15 +66,17 @@ h1 {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: "Noto Sans", sans-serif;
   border-collapse: collapse;
   width: 90%;
   margin-top: 12px;
   margin-bottom: 72px;
   table-layout: fixed;
+  color: rgb(216, 216, 216);
 }
 
 td {
+  font-family: "Noto Sans";
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -73,6 +87,15 @@ td {
   padding: 4px;
 }
 
+td a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Noto Sans";
+}
+td a:hover {
+  text-decoration: underline;
+}
 
 td img {
   width: 28px;
