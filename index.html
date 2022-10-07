@@ -21,121 +21,93 @@
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="home/header.css" />
-    <link rel="stylesheet" href="home/body.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <title>ToffeeTV</title>
     <link rel="icon" href="rgb.gif" type="image/gif" />
   </head>
   <body>
     <header>
-      <div class="left-side">
-        <img src="assets/rgb.gif" alt="Logo" />
-        <button class="useless-button" title="Homepage">
-          <!--U S E L E S S-->
+      <div title="Homepage">
+        <a href="index.html">
+          <img src="icons/home.png" alt="">
           Home
-        </button>
-        <button
-          class="useful-button"
-          title="My YouTube Videos"
-          onclick=" window.open('https://www.youtube.com/channel/UC_DxKc3pGsBW24x2I7zsVJA/videos', '_blank'); return false;"
-        >
-          Videos
-        </button>
-        <button
-          class="useful-button"
-          title="Notes on My Thoughts"
-          onclick="location.href='https://google.com';"
-        >
-          Notes
-        </button>
-        <button
-          class="useful-button"
-          title="Geometry Dash Demon Progress"
-          onclick="location.href='demons/demon-index.html';"
-        >
-          Demons
-        </button>
-        <button
-          class="useful-button"
-          title="Website Information"
-          onclick="location.href='info/info-index.html';"
-        >
-          Info
-        </button>
+        </a>
       </div>
-      <div class="right-side">
-        <h1>ToffeeTV</h1>
-        <img src="assets/rgb.gif" alt="Logo">
+      <div title="YouTube Videos">
+        <a href="https://www.youtube.com/channel/UC_DxKc3pGsBW24x2I7zsVJA/videos" target="_blank">
+          <img src="icons/videos.png" alt="">
+          Videos
+        </a>
+      </div>
+      <div title="Notes & Thoughts">
+        <a href="">
+          <img src="icons/notes.png" alt="">
+          Notes
+        </a>
+      </div>
+      <div title="Geometry Dash Demons">
+        <a href="demon.html">
+          <img src="icons/demons.png" alt="">
+          Demons
+        </a>
+      </div>
+      <div title="Information & Credits">
+        <a href="">
+          <img src="icons/info.png" alt="">
+          Info
+        </a>
       </div>
     </header>
     
-    <div class="social-container">
-      <div class="social-header">
-        <h1>Hello, fellow human</h1>
-      </div>
-      <div class="social-body">
-        <p>
-          Hi &mdash; I'm Toffee, and here you will find stuff I made and stuff.
-          Enjoy browsing.
-        </p>
-      </div>
+    <img class="profile" src="assets/Janna Blank.png" alt="Image">
+    <h2>Toffee</h2>
+    <p>stuff</p>
+    <br>
+
+    <div class="links">
+      <a title="@ToffeeTV" href="https://www.youtube.com/channel/UC_DxKc3pGsBW24x2I7zsVJA" target="_blank">
+        <img class="link-icons yt" src="icons/youtube.png" alt="YTTV">
+        <p class="lbl">TV</p>
+      </a>
+
+      <a title="@ToffeeXD" href="https://www.youtube.com/channel/UC5czLv7zGLHcuD1bPSXVA_A" target="_blank">
+        <img class="link-icons yt2" src="icons/youtube.png" alt="YTXD">
+        <p class="lbl2">XD</p>
+      </a>
+
+      <a title="@ToffeeTV" href="https://toffeetv.newgrounds.com" target="_blank">
+        <img class="link-icons" src="icons/newgrounds-stroke.png" alt="NG">
+      </a>
+
+      <a title="@toffeetelevision" href="https://instagram.com/toffeetelevision" target="_blank">
+        <img class="link-icons" src="icons/instagram.png" alt="IN">
+      </a>
+
+      <a title="@toffeetelevision" href="https://www.reddit.com/user/toffeetelevision" target="_blank">
+        <img class="link-icons" src="icons/reddit.png" alt="RE">
+      </a>
+
+      <a title="@toffeetelevised" href="https://www.twitter.com/toffeetelevised" target="_blank">
+        <img class="link-icons" src="icons/twitter.png" alt="TW">
+      </a>
     </div>
-    <div class="social-container">
-      <div class="social-header">
-        <h1>My links</h1>
-      </div>
-      <div class="social-body">
-        <div>
-          <a href="https://www.youtube.com/channel/UC_DxKc3pGsBW24x2I7zsVJA"
-          target="_blank">
-            <img src="assets/yt.png" alt="" />
-            <p class="site">YouTube 1</p>
-            <p class="username">@ToffeeTV</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.youtube.com/channel/UC5czLv7zGLHcuD1bPSXVA_A"
-          target="_blank">
-            <img src="assets/yt.png" alt="" />
-            <p class="site">YouTube 2</p>
-            <p class="username">@ToffeeXD</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.toffeetv.newgrounds.com"
-          target="_blank">
-            <img src="assets/newgrounds.png" alt="" />
-            <p class="site">Newgrounds</p>
-            <p class="username">@ToffeeTV</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.instagram.com/toffeetelevision"
-          target="_blank">
-            <img src="assets/insta.png" alt="" />
-            <p class="site">Instagram</p>
-            <p class="username">@toffeetelevision</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.reddit.com/user/toffeetelevision"
-          target="_blank">
-            <img src="assets/reddit.png" alt="" />
-            <p class="site">Reddit</p>
-            <p class="username">/u/toffeetelevision</p>
-          </a>
-        </div>
-    
-        <div>
-          <a href="https://www.twitter.com/toffeetelevised"
-          target="_blank">
-            <img src="assets/twitter.png" alt="" />
-            <p>Twitter</p>
-            <p class="username">@toffeetelevised</p>
-          </a>
-        </div>
-      </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="other">
+      <h1>Latest Video</h1>
+      <br>
     </div>
+    <div class="iframe-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0OUt1ByTDm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <br>
+    <br>
+    <br>
   </body>
 </html>

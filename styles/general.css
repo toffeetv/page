@@ -1,0 +1,38 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  font-family: "Noto Sans";
+
+  margin: 0px;
+}
+
+body {
+  margin-top: 138px;
+}
+
+h1 {
+  font-family: "Noto Sans";
+  font-weight: 900;
+  margin: 0px;
+}
+
+/* S C R O L L B A R */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  background: rgb(32, 32, 32);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(92, 92, 92);
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}

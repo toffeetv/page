@@ -1,3 +1,12 @@
+.outside {
+  display: flex;
+  justify-content: center;
+}
+
+.inside {
+  margin-left: 128px;
+}
+
 .title {
   margin-bottom: 24px;
   font-size: 42px;
@@ -5,7 +14,6 @@
 
 img {
   width: 28px;
-  height: 28px;
 }
 
 .username {
@@ -123,7 +131,7 @@ td img {
 }
 
 @media (max-width: 850px) {
-  body {
+  .inside {
     margin-left: 24px;
   }
 }
