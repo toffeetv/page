@@ -1,15 +1,27 @@
+.bruh {
+  display: none;
+}
+
 .outside {
   display: flex;
   justify-content: center;
 }
 
-.inside {
+.year-top {
   margin-left: 128px;
 }
 
 .title {
   margin-bottom: 24px;
   font-size: 42px;
+  display: block;
+  text-align: center;
+}
+
+.the-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 img {
@@ -20,12 +32,14 @@ img {
   display: inline;
   font-weight: 800;
   font-size: 36px;
+  text-align: center;
 }
 #easy {
   margin-top: 10px;
 }
 #ign {
   text-decoration: underline;
+  text-align: center;
 }
 #total {
   width: 256px;
@@ -37,10 +51,16 @@ img {
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .info-box {
   margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .info {
@@ -48,6 +68,7 @@ img {
   width: auto;
   height: 32px;
   align-items: center;
+  text-align: center;
 }
 
 .info p {
@@ -76,9 +97,10 @@ h1 {
 }
 
 table {
+  margin-left: 128px;
   font-family: "Noto Sans", sans-serif;
   border-collapse: collapse;
-  width: 90%;
+  width: 80%;
   margin-top: 12px;
   margin-bottom: 72px;
   table-layout: fixed;
@@ -124,15 +146,19 @@ td img {
   text-align: end;
 }
 
-@media (max-width: 725px) {
-  .note {
-    margin-left: -20px;
+.none-para {
+  margin-left: 128px;
+}
+
+@media (max-width: 890px) {
+  .none-para, .year-top, table {
+    margin-left: 86px;
   }
 }
 
-@media (max-width: 850px) {
-  .inside {
-    margin-left: 24px;
+@media (max-width: 650px) {
+  .none-para, .year-top, table {
+    margin-left: 48px;
   }
 }
 
@@ -144,10 +170,40 @@ td img {
   .year {
     display: none;
   }
+  .none-para, .year-top, table {
+    margin-left: 32px;
+  }
 }
 
 @media (max-width: 375px) {
   .face {
+    display: none;
+  }
+  td {
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 320px) {
+  td {
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 270px) {
+  .info-box img {
+    display: none;
+  }
+}
+
+@media (max-width: 214px) {
+  .bruh {
+    display: contents;
+  }
+  header {
+    visibility: hidden;
+  }
+  .outside {
     display: none;
   }
 }

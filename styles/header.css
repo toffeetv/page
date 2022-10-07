@@ -40,6 +40,13 @@ a:hover {
   -o-transform: scale(1.1);
 }
 
+.wip:hover {
+  content: "W.I.P";
+  cursor: not-allowed;
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+}
+
 header div {
   height: inherit;
 
@@ -103,6 +110,9 @@ a img {
     padding-left: 6px;
     padding-right: 6px;
   }
+  header a {
+    font-weight: 300;
+  }
 }
 
 @media (max-width: 325px) {
@@ -118,3 +128,22 @@ a img {
     padding-right: 4px;
   }
 }
+
+@media (max-width: 300px) {
+  a img {
+    width: 18px;
+    margin-top: 22px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+  }
+  header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header a {
+    font-weight: 200;
+    font-size: 12px;
+  }
+}
+
