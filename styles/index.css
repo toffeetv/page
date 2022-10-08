@@ -87,8 +87,40 @@ a:hover {
   font-weight: 200;
 }
 
-.other h1 {
+.other {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.other, .other h1 {
   text-align: center;
+}
+
+.other-links {
+  background-color: rgb(48, 48, 48);
+  width: auto;
+  height: 72px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.other-links:hover {
+  cursor: pointer;
+}
+
+.other-links img {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
 }
 
 .iframe-container{
