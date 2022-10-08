@@ -36,3 +36,10 @@ h1 {
   -ms-border-radius: 14px;
   -o-border-radius: 14px;
 }
+
+h6 {
+  font-weight: 200;
+  font-size: 16px;
+  color: gray;
+  margin: 20px;
+}

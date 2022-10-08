@@ -18,7 +18,7 @@ header {
   padding-right: 26px;
 }
 
-a {
+header a {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -32,7 +32,7 @@ a {
   -ms-transition: 0.15s;
   -o-transition: 0.15s;
 }
-a:hover {
+header a:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -66,7 +66,7 @@ header div:hover {
   background-color: rgba(52, 52, 52, 0.7);
 }
 
-a img {
+header a img {
   width: 32px;
   margin-left: 40px;
   margin-right: 40px;
@@ -75,7 +75,7 @@ a img {
 }
 
 @media (max-width: 650px) {
-  a img {
+  header a img {
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -86,7 +86,7 @@ a img {
 }
 
 @media (max-width: 500px) {
-  a img {
+  header a img {
     width: 28px;
     margin-top: 18px;
     margin-left: 20px;
@@ -99,7 +99,7 @@ a img {
 }
 
 @media (max-width: 380px) {
-  a img {
+  header a img {
     width: 24px;
     margin-top: 18px;
     margin-left: 18px;
@@ -116,7 +116,7 @@ a img {
 }
 
 @media (max-width: 325px) {
-  a img {
+  header a img {
     width: 24px;
     margin-top: 18px;
     margin-left: 16px;
@@ -130,7 +130,7 @@ a img {
 }
 
 @media (max-width: 300px) {
-  a img {
+  header a img {
     width: 18px;
     margin-top: 22px;
     margin-left: 12px;

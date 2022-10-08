@@ -1,5 +1,11 @@
 .bruh {
-  display: none;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
 }
 
 .outside {
@@ -182,6 +188,14 @@ td img {
   td {
     font-weight: 300;
   }
+  .year-top {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .none-para {
+    margin-left: 0px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 320px) {
@@ -198,12 +212,24 @@ td img {
 
 @media (max-width: 214px) {
   .bruh {
-    display: contents;
+    visibility: visible;
   }
   header {
     visibility: hidden;
   }
   .outside {
     display: none;
+  }
+  h6 {
+    display: none;
+  }
+}
+
+@media (max-width: 290px) {
+  .none-para, .year-top, table {
+    margin-left: 12px;
+  }
+  table {
+    width: 90%;
   }
 }
