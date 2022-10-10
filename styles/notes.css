@@ -1,0 +1,158 @@
+
+main {
+  width: 76%;
+}
+
+article {
+  display: flex;
+  justify-content: start;
+  max-width: 1100px;
+  flex-direction: column;
+}
+
+.intro {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+
+}
+
+article h3 {
+  font-size: 30px;
+  display: block;
+  margin: 0px;
+  font-weight: 900;
+}
+
+.separator {
+  height: 4px;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+article p {
+  margin: 0px;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.entry:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.entry:visited {
+  color: rgb(255, 166, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.entry:hover {
+  text-decoration: underline;
+}
+
+.extra {
+  display: inline;
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+  font-weight: 300;
+}
+.bruh {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  article h3, article p {
+    text-align: center;
+    font-weight: 400;
+  }
+  .intro {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .extra {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  article h3, article p {
+    font-weight: 300;
+  }
+  body {
+    margin-top: 100px;
+  }
+  .intro {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .entry {
+    font-size: 14px;
+  }
+  .extra {
+    font-size: 14px;
+  }
+  main {
+    width: 85%;
+  }
+}
+
+@media (max-width: 330px) {
+  .extra {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    margin-top: 80px;
+  }
+  .intro {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  article h3 {
+    font-size: 24px;
+  }
+  .extra {
+    display: none;
+  }
+
+}
+
+@media (max-width: 260px) {
+  article h3 {
+    font-size: 22px;
+  }
+  .entry {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 214px) {
+  .bruh {
+    visibility: visible;
+  }
+  header {
+    display: none;
+  }
+  main {
+    display: none;
+  }
+  h6 {
+    display: none;
+  }
+}
