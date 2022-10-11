@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 4px;
   right: 6px;
-  content: "v22.10.10d";
+  content: "v22.10.11a";
 }
 
 html,
@@ -67,4 +67,10 @@ h6 {
 
 br {
   text-align: center;
+}
+
+@media (max-width: 300px) {
+  h6 {
+    font-size: 12px;
+  }
 }

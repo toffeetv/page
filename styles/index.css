@@ -151,6 +151,12 @@ a:hover {
   height: 100%;
 }
 
+@media (max-width: 525px) {
+  .spaces1 {
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
   .link-icons {
     width: 36px;
@@ -181,6 +187,15 @@ a:hover {
     margin-left: 38px;
     font-size: 6px;
   }
+  .spaces2 {
+    display: none;
+  }
+  .other-links {
+    font-size: 22px;
+  }
+  .bio {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 300px) {
@@ -197,6 +212,13 @@ a:hover {
     margin-top: -4px;
     margin-left: 28px;
     font-weight: 100;
+  }
+  .other-links {
+    font-size: 20px;
+  }
+  .other-links img {
+    width: 36px;
+    height: 36px;
   }
 }
 
