@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 4px;
   right: 6px;
-  content: "v22.10.11a";
+  content: "v22.10.11b";
 }
 
 html,
@@ -36,7 +36,7 @@ h1 {
   background: rgb(32, 32, 32);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(92, 92, 92);
+  background: rgb(52, 52, 52);
   border-radius: 14px;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
