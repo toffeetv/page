@@ -1,0 +1,25 @@
+::selection {
+  background: #FFBC00;
+  color: black;
+}
+::-moz-selection {
+  background: #FFBC00;
+  color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 12px;
+  font-size: 16px;
+  font-family: "Noto Sans";
+}
+a {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+}
+a:hover {
+  text-decoration: underline;
+}

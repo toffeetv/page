@@ -19,7 +19,8 @@
 
 .title {
   margin-bottom: 24px;
-  font-size: 42px;
+  font-size: 36px;
+  font-weight: 900;
   display: block;
   text-align: center;
 }
@@ -37,7 +38,7 @@ img {
 .username {
   display: inline;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 32px;
   text-align: center;
 }
 #easy {
@@ -118,7 +119,7 @@ table {
 }
 
 .lvl {
-  text-align: center;
+  text-align: right;
 }
 
 td {
@@ -170,12 +171,16 @@ td img {
 
 .face {
   width: 40px;
+  text-align: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .year {
     display: none;
   }
+}
+
+@media (max-width: 425px) {
   .none-para, .year-top, table {
     margin-left: 32px;
   }
@@ -184,6 +189,9 @@ td img {
 @media (max-width: 375px) {
   .face {
     display: none;
+  }
+  .lvl {
+    text-align: left;
   }
   td {
     font-weight: 300;

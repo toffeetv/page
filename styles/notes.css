@@ -12,9 +12,9 @@ article {
 
 .intro {
   text-align: center;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 900;
-
+  line-height: 44px;
 }
 
 article h3 {
@@ -25,7 +25,8 @@ article h3 {
 }
 
 .separator {
-  height: 4px;
+  margin-top: 4px;
+  height: 1px;
   width: 100%;
   background-color: rgb(32, 32, 32);
   border-radius: 2px;
@@ -49,7 +50,7 @@ article p {
 }
 
 .entry:visited {
-  color: rgb(255, 166, 0);
+  color: #FFBC00;
   background-color: transparent;
   text-decoration: none;
 }

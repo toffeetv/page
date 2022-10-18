@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 4px;
   right: 6px;
-  content: "v22.10.14a";
+  content: "v22.10.18a";
 }
 
 html,
@@ -45,7 +45,7 @@ h1 {
 }
 
 a {
-  color: rgb(255, 166, 0);
+  color: #ffc014;
   text-decoration: none;
 }
 
@@ -57,11 +57,11 @@ h6 {
 }
 
 ::selection {
-  background: rgb(235, 172, 0);
+  background: #FFBC00;
   color: black;
 }
 ::-moz-selection {
-  background: rgb(235, 172, 0);
+  background: #FFBC00;
   color: black;
 }
 
