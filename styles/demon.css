@@ -122,6 +122,31 @@ table {
   text-align: right;
 }
 
+.linked {
+  font-weight: 800;
+}
+
+i {
+  color: rgb(83, 83, 83);
+  font-style: normal;
+  margin-right: 2px;
+}
+
+hardest {
+ color: rgb(255, 195, 32); 
+}
+
+hacked {
+  color: rgb(119, 1, 1);
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.hardest {
+  width: 14px;
+  height: 14px;
+}
+
 td {
   text-align: center;
   font-family: "Noto Sans";
