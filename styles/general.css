@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 4px;
   right: 6px;
-  content: "v22.10.28a";
+  content: "v22.10.31a";
 }
 
 html,
@@ -29,19 +29,19 @@ h1 {
 
 /* S C R O L L B A R */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
   background-color: transparent;
-  background: rgb(32, 32, 32);
+  background: rgb(10, 10, 10);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(52, 52, 52);
-  border-radius: 14px;
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  -ms-border-radius: 14px;
-  -o-border-radius: 14px;
+  background: rgb(112, 112, 112);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 a {

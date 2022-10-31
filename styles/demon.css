@@ -124,6 +124,15 @@ table {
 
 .linked {
   font-weight: 800;
+  text-decoration: underline;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.linked:hover {
+  color: rgb(255, 0, 0);
 }
 
 i {
@@ -137,14 +146,16 @@ hardest {
 }
 
 hacked {
-  color: rgb(119, 1, 1);
+  color: rgb(172, 0, 0);
   font-weight: 500;
   vertical-align: middle;
 }
 
 .hardest {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  offset;
 }
 
 td {
@@ -180,6 +191,12 @@ td img {
 
 .none-para {
   margin-left: 128px;
+}
+
+@media (max-width: 970px) {
+  .gauntlets {
+    content: "(G)";
+  }
 }
 
 @media (max-width: 890px) {
