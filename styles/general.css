@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 4px;
   right: 6px;
-  content: "v22.10.31a";
+  content: "v22.11.09a";
 }
 
 html,
@@ -33,7 +33,7 @@ h1 {
 }
 ::-webkit-scrollbar-track {
   background-color: transparent;
-  background: rgb(10, 10, 10);
+  background: rgb(24, 24, 24);
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(112, 112, 112);

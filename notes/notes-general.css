@@ -23,3 +23,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+::selection {
+  background: #FFBC00;
+  color: black;
+}
+::-moz-selection {
+  background: #FFBC00;
+  color: black;
+}
