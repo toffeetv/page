@@ -33,6 +33,7 @@ h2 {
 
 .bio {
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 p {
@@ -45,6 +46,11 @@ p {
   flex-direction: row;
   justify-content: start; 
   position: relative;
+  margin-bottom: 104px;
+}
+
+.latest-video {
+  margin-bottom: 20px;
 }
 
 .links p {
@@ -110,6 +116,7 @@ a:hover {
 
 .other, .other h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .other-links {
@@ -142,6 +149,7 @@ a:hover {
   width: 100%;
   padding-bottom: 56.25%; 
   height: 0;
+  margin-bottom: 104px;
 }
 .iframe-container iframe{
   position: absolute;

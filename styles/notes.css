@@ -15,6 +15,11 @@ article {
   font-size: 36px;
   font-weight: 900;
   line-height: 44px;
+  margin-bottom: 72px;
+}
+
+.month {
+  margin-bottom: 96px;
 }
 
 article h3 {
