@@ -64,6 +64,17 @@ article p {
   text-decoration: underline;
 }
 
+.deleted {
+  text-decoration: line-through;
+}
+
+.deleted2 {
+  color: gray;
+}
+.deleted2:hover {
+  cursor: default; 
+}
+
 .extra {
   display: inline;
   font-size: 14px;
