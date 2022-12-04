@@ -1,10 +1,15 @@
+/* V E R S I O N */
+
 .version::after {
   margin: 0px;
   position: fixed;
-  bottom: 4px;
-  right: 6px;
-  content: "v22.12.04a";
+  bottom: 2px;
+  left: 6px;
+  font-size: 12px;
+  content: "v22.12.04b";
 }
+
+/* G E N E R A L   C S S*/
 
 html,
 body {
@@ -25,27 +30,6 @@ h1 {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-weight: 900;
   margin: 0px;
-}
-
-/* S C R O L L B A R */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  background: rgb(8, 8, 8);
-
-}
-::-webkit-scrollbar-thumb {
-  background: rgb(152, 152, 152);
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-}
-::-webkit-scrollbar-button {
-  display: none;
 }
 
 a {
@@ -77,4 +61,26 @@ br {
   h6 {
     font-size: 12px;
   }
+}
+
+
+/* S C R O L L   B A R */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  background: rgb(8, 8, 8);
+
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(152, 152, 152);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+::-webkit-scrollbar-button {
+  display: none;
 }
